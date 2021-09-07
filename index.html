@@ -28,6 +28,23 @@
 
         if (seconds === 59) {
             secondHand.style.transition = '0s';
+        } else if (seconds === 1) {
+            secondHand.style.transition = '0.1s';
+            secondHand.style.transitionTimingFunction = 'cubic-bezier(0, 1.57, 0, 1.51)';
+        }
+
+        if (minutes === 59) {
+            minHand.style.transition = '0s';
+        } else if (minutes === 1) {
+            minHand.style.transition = '0.1s';
+            minHand.style.transitionTimingFunction = 'cubic-bezier(0, 1.57, 0, 1.51)';
+        }
+
+        if (hours === 59) {
+            hourHand.style.transition = '0s';
+        } else if (hours === 1) {
+            hourHand.style.transition = '0.1s';
+            hourHand.style.transitionTimingFunction = 'cubic-bezier(0, 1.57, 0, 1.51)';
         }
 
         const secondsDegrees = ((seconds / 60) * 360) + 90;

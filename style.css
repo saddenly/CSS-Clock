@@ -43,6 +43,10 @@ body {
 
     transform-origin: 100%;
     transform: rotate(90deg);
-    transition: 0.05s all;
+    transition: 0.1s all;
     transition-timing-function: cubic-bezier(0, 1.57, 0, 1.51);
+}
+
+.hour-hand {
+    transition: 0.5s;
 }

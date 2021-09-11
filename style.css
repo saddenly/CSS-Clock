@@ -1,5 +1,5 @@
 html {
-    background: #018DED url(bg.jpg);
+    background: #018DED url(img/bg.jpg);
     background-size: cover;
     text-align: center;
     font-size: 10px;
@@ -49,4 +49,11 @@ body {
 
 .hour-hand {
     transition: 0.5s;
+    width: 35%;
+    left: 45px;
+}
+
+.min-hand {
+    width: 45%;
+    left: 15px;
 }
